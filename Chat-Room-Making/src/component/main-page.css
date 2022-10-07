@@ -210,12 +210,23 @@ span.status{
     flex-direction: column;
     margin: 29px 29px 0px 29px;
     row-gap: 18px;
-    
-    overflow-y: scroll;
-    
+    overflow-y: scroll; 
     
 }
+.messageContentS .owner{
+    flex-direction: row-reverse;
+}
+.messageContentS .owner .messageContent p{
+    background-image: linear-gradient( rgb(211, 12, 161), rgb(13, 199, 75));
+}
 
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(transparent, #08a093);
+    border-radius: 6px;
+}
 .messageContent{
     max-width: 67%;
     height: 29px;

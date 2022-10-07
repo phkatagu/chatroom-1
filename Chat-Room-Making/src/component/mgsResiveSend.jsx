@@ -2,7 +2,7 @@ import React from 'react'
 import './main-page.css'
 function MessageContentS() {
   return (
-    <div className='messageContentS'>
+    <div className='messageContentS owner'>
         <div className="messageContent">
           <p>Hellooooooiiiiiiiiiiio</p>
         </div>
