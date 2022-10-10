@@ -1,28 +1,17 @@
 import React from 'react'
+import InputMgses from './input'
 import './main-page.css'
-import Mgses from './mgses'
+import Messages from './messages'
+import MgsHeader from './mgsHeader'
 function DisplayMgs() {
   return (
     <div className="displayMgs">
-        <div className="mgsHeader">
-            <div className="contectProfile">
-                <div className="contectUserDP"></div>
-                <div className="contectUserName1">
-                    Roland Luwang <br />
-                    <span className='phoneNum'>9366095593</span>
-                </div>
-            </div>
-            <div className="contectStatus">
-                <span className='statusDisplay'>World of Creative Desginer</span><br />
-                <span className='emailDisplay'>athokpamroland@gmail.com</span><br />
-                <span className='activeNotifiyer'>Active</span>
-            </div>
-            <div className="contectCall">
-                <button className='callButton'>Call</button><br />
-                <button className='vCallButton'>Video Call</button>
-            </div>
+        <MgsHeader />
+        <div className="messageContainerBackground">
+            <Messages />
+            <InputMgses />
         </div>
-        <Mgses/>
+        
     </div>
 
   )

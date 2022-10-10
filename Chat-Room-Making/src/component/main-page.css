@@ -61,7 +61,7 @@
 .userDP{
     margin-left: 20px;
     border-radius: 50%;
-    background-image: url(D:\my_project\ReactJS\Chat-Room-Making\src\dp.jpeg);
+    background-image: url('../dp.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 79px;
@@ -103,7 +103,7 @@ span.status{
     margin-top: 8px;
     height: 40px;
     border-radius: 50%;
-    background-image: url(D:\my_project\ReactJS\Chat-Room-Making\src\dp2.jpeg);
+    background-image: url('../dp2.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -143,7 +143,7 @@ span.status{
     margin-bottom: 10px;
     margin-left: 20px;
     border-radius: 50%;
-    background-image: url(D:\my_project\ReactJS\Chat-Room-Making\src\dp2.jpeg);
+    background-image: url('../dp2.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -188,9 +188,9 @@ span.status{
     border: none;
     color: azure;
 }
-/* ========== FOR MGS ============ */
-/* --------------- MGS BACKGROUND------------ */
-.mgs{
+/* ========== FOR MESSAGE ============ */
+/* --------------- MESSAGE CONTAINER BACKGROUND------------ */
+.messageContainerBackground{
     border-top: 1px rgba(0, 0, 0, 0.514) solid;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -201,24 +201,7 @@ span.status{
     margin-left: 17px;
     box-shadow: black 8px -4px 20px -14px ;
 }
-/* ------------RESIVING MGS--------------- */
-
-.mgsResiveSend{
-    width: 96%;
-    height: 83.6%;
-    display: flex;
-    flex-direction: column;
-    margin: 29px 29px 0px 29px;
-    row-gap: 18px;
-    overflow-y: scroll; 
-    
-}
-.messageContentS .owner{
-    flex-direction: row-reverse;
-}
-.messageContentS .owner .messageContent p{
-    background-image: linear-gradient( rgb(211, 12, 161), rgb(13, 199, 75));
-}
+/* ------------MESSAGE CONTAINER--------------- */
 
 ::-webkit-scrollbar{
     width: 5px;
@@ -227,44 +210,6 @@ span.status{
     background-image: linear-gradient(transparent, #08a093);
     border-radius: 6px;
 }
-.messageContent{
-    max-width: 67%;
-    height: 29px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    position: relative;
-    
-}
-.messageContent p{
-    background-image: linear-gradient( rgb(98, 10, 180), rgb(189, 19, 175));
-    border-radius: 0px 20px 20px 20px;
-    position: absolute;
-    padding: 8px;
-    font-family: serif;
-    font-style: italic;
-    margin-left: 20px;
-}
-.messageInfo{
-    color: rgb(144, 148, 148);
-    margin-left: 0px;
-    margin-top: 9px;
-    font-family: cursive;
-    position: relative;
-    font-size: 12px;
-    width: 70px;
-    
-    
-}
-.messageInfo img{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
 
-}
-.messageContent img{
-    width: 50%;
-
-}
 
 

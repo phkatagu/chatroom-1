@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom';
 import Login from './component/login-page';
 import MainPage from './component/main-page';
+import Register from './component/register-page';
 import './index.css';
 
 
@@ -14,11 +15,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
     <Routes>
-      <Route path='/' element={<Login/>} />
-      <Route path='/main-page' element={<MainPage/>} />
+      <Route path='/'>
+        <Route index element={<MainPage/>} />
+        <Route path='login' element={<Login/>} />
+        <Route path='register' element={<Register/>} />
+      </Route>
     </Routes>
   </Router>
 );
-
-
-

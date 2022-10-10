@@ -1,11 +1,10 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
 import './login-page.css'
 function Login() {
-    const navigate = useNavigate();
-        const goTo = () => {
-            navigate('/main-page')
-        }
+    // const navigate = useNavigate();
+    //     const goTo = () => {
+    //         navigate('/main-page')
+    //     }
   return (
     <div className='logInContainer'>
         <h1>LogIn here</h1>
@@ -18,10 +17,10 @@ function Login() {
                     <input type="password" className='userInput'/>
                 </form>
                 <div className='fPass'>
-                    <a href="" className='forgotPass'>Forgot Password</a>
-                    <a href="" className='newUser'>New User?</a>
+                    <a className='forgotPass'>Forgot Password</a>
+                    <a className='newUser'>New User?</a>
                 </div>
-                <button className='button' onClick={goTo}>
+                <button className='button'  >
                     Sign In
                 </button>
             </div>
