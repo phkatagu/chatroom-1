@@ -23,8 +23,7 @@ h1{
     height: 270px;
     box-shadow: rgba(0, 0, 0, 0.669) 4px 10px 12px 5px;
     border-radius: 13px ;
-    display: grid;
-    grid-template-rows: 139px 107px 107px 107px;
+    
 
 
 }
@@ -52,7 +51,7 @@ input[type=text], input[type=password]{
 }
 
 .fPass{
-    margin-top: 30px;
+    margin-top: -12px;
     margin-left: 42px;
     display: grid;
     grid-template-columns: 100px 100px;
@@ -71,7 +70,7 @@ input[type=text], input[type=password]{
 }
 .button{
     background-color: rgba(245, 245, 220, 0.503);
-    margin-top: -30px;
+    margin-top: 38px;
     width: 60px;
     height: 21px;
     margin-left: 200px;

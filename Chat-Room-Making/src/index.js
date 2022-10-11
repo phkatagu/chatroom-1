@@ -13,11 +13,12 @@ import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
   <Router>
     <Routes>
       <Route path='/'>
-        <Route index element={<MainPage/>} />
-        <Route path='login' element={<Login/>} />
+        <Route index element={<Login/>} />
+        <Route path='main-page' element={<MainPage/>} />
         <Route path='register' element={<Register/>} />
       </Route>
     </Routes>
