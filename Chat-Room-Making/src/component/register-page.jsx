@@ -52,6 +52,7 @@ const Register = () => {
                         });
                         // await setDoc(doc(db, "userChat", res.user.uid), {});
                         // navigate("/")
+                        // navigate("/")
                         
                     });
                 }
