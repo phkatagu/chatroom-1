@@ -1,6 +1,7 @@
 import React from 'react'
 import './main-page.css'
 import Search from './search'
+import Signout from './signout'
 function NavBar() {
   return (
     <div>
@@ -13,6 +14,7 @@ function NavBar() {
             </div>
           </div>
           <div className="contect">
+            <Signout/>
             <Search/>
             <div className="contect1">
               <div className="contect1DP"></div>
