@@ -1,0 +1,87 @@
+@mixin mobile {
+    @media screen and (max-width: 480px) {
+        @content;
+    }
+}
+@mixin tablet {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+@mixin laptop {
+    @media screen and (max-width: 1200px) {
+        @content;
+    }
+}
+.messages{
+    height: calc(100% - 68px);
+    overflow: scroll;
+    margin-top: 20px;
+    row-gap: 30px;
+
+    .message{
+        display: flex;
+        margin-bottom: 20px;
+        
+
+        .messageContent{
+            max-width: 70%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px ;
+            margin-left: 20px;
+            
+    
+            p{
+                margin-left: 50px;
+                background-image: linear-gradient( rgb(98, 10, 180), rgb(189, 19, 175));
+                border-radius: 0px 20px 20px 20px;
+                padding: 10px 20px;
+                font-family: serif;
+                font-style: italic;
+                margin-left: 18px;
+                width: fit-content;
+                
+            }
+            img{
+                width: 50%;
+                margin-left: 19px;
+            }
+
+            .messageInfo{
+                margin-top: -15px;
+                margin-left: 23px;
+               
+                span{
+                    color: rgb(144, 148, 148);
+                    font-family: cursive;
+                    font-size: 10px;
+                    
+                }
+        
+            }
+    
+        }
+        &.owner{
+            flex-direction: row-reverse;
+            .messageContent{
+                margin-right: 20px;
+                align-items: flex-end;
+
+                p{
+                    background-image: linear-gradient( rgb(44, 180, 10), rgb(223, 16, 206));
+                    border-radius: 20px 0px 20px 20px;
+
+                }
+                
+            }
+            
+        }
+        
+    }
+    
+
+    
+    
+
+}

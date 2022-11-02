@@ -1,0 +1,27 @@
+.inputPlace{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    height: 50px;
+    padding: 0px 10px 0px 10px;
+    align-items: center;
+}
+::placeholder{
+    color: rgb(77, 67, 67);
+}
+.typingSpace{
+    outline: none;
+    font-size: 14px;
+    border: none;
+    background-color: rgba(152, 153, 214, 0.459);
+}
+
+input[type=file]{
+    width: 89px;
+    
+}
+.mgses{
+    height: 460px;
+    padding-top: 10px;
+    
+}

@@ -1,0 +1,100 @@
+.resistrationContainer {
+  background-image: -webkit-gradient(linear, right top, left top, from(#131313), to(rgba(48, 48, 72, 0.861)));
+  background-image: linear-gradient(270deg, #131313, rgba(48, 48, 72, 0.861));
+  height: 900px;
+  margin-top: -50px;
+}
+
+.resistrationContainer h1 {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 120px;
+  margin-left: 40px;
+  text-shadow: rgba(0, 0, 0, 0.669) 4px 4px 4px;
+}
+
+.resistrationContainer .cardContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px;
+      grid-template-columns: 300px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 70px;
+}
+
+.resistrationContainer .cardContainer .cardItems {
+  color: rgba(127, 255, 212, 0.622);
+  background-color: rgba(245, 242, 246, 0.05);
+  height: 332px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.669) 4px 10px 12px 5px;
+          box-shadow: rgba(0, 0, 0, 0.669) 4px 10px 12px 5px;
+  border-radius: 13px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 239px 107px;
+      grid-template-rows: 239px 107px;
+}
+
+.resistrationContainer .cardContainer .cardItems .form {
+  margin-top: 27px;
+}
+
+.resistrationContainer .cardContainer .cardItems .form .userName, .resistrationContainer .cardContainer .cardItems .form .userEmail, .resistrationContainer .cardContainer .cardItems .form .userPassword {
+  margin-left: 50px;
+}
+
+.resistrationContainer .cardContainer .cardItems .form .nameInput, .resistrationContainer .cardContainer .cardItems .form .emailInput, .resistrationContainer .cardContainer .cardItems .form .passwordInput, .resistrationContainer .cardContainer .cardItems .form .fileInput {
+  margin-left: 40px;
+  margin-bottom: 12px;
+  outline: none;
+  height: 23px;
+  padding-right: 8px;
+}
+
+.resistrationContainer .cardContainer .cardItems .form input[type=text], .resistrationContainer .cardContainer .cardItems .form input[type=email], .resistrationContainer .cardContainer .cardItems .form input[type=password] {
+  width: 200px;
+  height: 20px;
+  margin-top: 7px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 11px;
+}
+
+.resistrationContainer .cardContainer .cardItems .form input[type=file] {
+  margin-top: -20px;
+  overflow: visible;
+  border-radius: 20px 20px 20px 20px;
+  padding-right: 85px;
+}
+
+.resistrationContainer .cardContainer .cardItems .form .button {
+  background-color: rgba(245, 245, 220, 0.503);
+  margin-top: 23px;
+  width: 60px;
+  height: 21px;
+  margin-left: 200px;
+  text-align: center;
+  display: block;
+  border-radius: 10px;
+  border: 1px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.669) 1px 5px 12px 2px;
+          box-shadow: rgba(0, 0, 0, 0.669) 1px 5px 12px 2px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.resistrationContainer .cardContainer .cardItems .form .button:hover {
+  background-color: rgba(0, 128, 0, 0.767);
+}
+
+.resistrationContainer .cardContainer .cardItems .form .button:active {
+  width: 64px;
+  height: 25px;
+}
+/*# sourceMappingURL=resistration_forgot.css.map */
